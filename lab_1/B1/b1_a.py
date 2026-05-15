@@ -57,8 +57,11 @@ axes[1, 1].set_xlabel("Pixel Intensity")
 axes[1, 1].set_ylabel("Frequency")
 
 plt.tight_layout()
+plt.savefig("equalization_result.png")
 plt.show()
-print("Done! Saved to equalized.jpg and equalization_result.png")
+print("Done! Saved to equalized.jpg và equalization_result.png")
+
+
 
 
 
